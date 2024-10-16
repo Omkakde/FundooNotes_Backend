@@ -1,5 +1,7 @@
+
 import { required } from '@hapi/joi';
 import { Schema, model } from 'mongoose';
+
 
 const userSchema = new Schema(
   {
@@ -14,6 +16,7 @@ const userSchema = new Schema(
     Email: {
       type: String,
       required:true
+  
     },
     Password: {
       type: String,

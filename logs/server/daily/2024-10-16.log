@@ -376,3 +376,1106 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T1
 info: Connected to the database. {"timestamp":"2024-10-16T10:30:07.647Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T10:30:37.385Z"}
 info: Connected to the database. {"timestamp":"2024-10-16T10:30:37.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T10:57:58.329Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T10:57:58.358Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:24:13.848Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:24:13.867Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:24:27.466Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:24:27.471Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:24:47.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:25:09.505Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:25:09.534Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:25:09.595Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:25:23.255Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:25:23.364Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:25:23.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:25:34.569Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:25:34.630Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:25:34.827Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:25:41.627Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:25:41.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:26:09.389Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:26:09.419Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:26:09.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:26:45.495Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:26:45.527Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:26:45.647Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-10-16T11:27:41.069Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:27:41.095Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:28:00.418Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:28:00.427Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-10-16T11:28:29.497Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:28:29.528Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-10-16T11:28:53.168Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:28:53.195Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-10-16T11:29:14.693Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:29:14.745Z"}
+info: Server started at http://localhost:3001/api/v1/ {"timestamp":"2024-10-16T11:29:29.506Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:29:29.541Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:29:37.097Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:29:37.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:30:13.556Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:30:13.583Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:30:54.324Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:30:54.337Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Expected double-quoted property name in JSON at position 142
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\types\json.js:92:19)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:128:18
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:32:01.661Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:32:12.313Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:32:12.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:33:24.092Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:33:24.125Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:33:53.483Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:33:53.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T11:34:13.918Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T11:34:13.949Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:34:18.847Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:34:18.863Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T11:34:28.079Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T11:34:28.082Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T16:48:42.295Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T16:48:42.409Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T16:50:30.940Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T16:50:30.955Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T16:50:36.670Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T16:50:36.675Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:08:53.904Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:08:53.932Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:09:15.740Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:09:15.757Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'password')
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\services\/user.service.js:17:11)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:09:51.699Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:11:43.534Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:11:43.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:12:37.084Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:12:37.114Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:13:58.025Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:13:58.054Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: Last_Name: Path `Last_Name` is required., First_Name: Path `First_Name` is required.
+    at model.Document.invalidate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:14:45.569Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:15:01.643Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:15:01.651Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:15:42.969Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:15:42.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:16:07.279Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:16:07.327Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/register/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:16:40.345Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/register/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:16:40.367Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:16:58.473Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:16:58.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:17:19.519Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:17:19.544Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:17:30.615Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:17:30.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:17:37.540Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:17:37.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:17:41.024Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:17:41.050Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:18:13.280Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:18:13.310Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:18:24.600Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:18:24.628Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:18:50.003Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:18:50.019Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:21:58.733Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:21:58.737Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:24:55.848Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:24:55.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:27:33.445Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:27:33.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:28:25.068Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:28:25.135Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:28:30.857Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:28:30.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:28:40.169Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:28:40.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:29:03.898Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:29:03.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:29:24.532Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:29:24.556Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:29:51.993Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:29:52.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:30:11.526Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:30:11.564Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:30:37.094Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:30:37.119Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:30:54.852Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:30:54.879Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:33:27.624Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:33:27.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:34:02.155Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:34:02.181Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:34:15.309Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:34:15.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:34:34.413Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:34:34.440Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:35:00.136Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:35:00.161Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'First_Name')
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:34:25)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:35:04.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:35:21.242Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:35:21.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:35:50.305Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:35:50.334Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:37:12.877Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:37:12.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:38:29.208Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:38:29.233Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:41:28.625Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:41:28.634Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:42:08.976Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:42:08.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:42:39.774Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:42:39.796Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:42:54.701Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:42:54.721Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:44:13.006Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:44:13.012Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:49:19.520Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:49:19.547Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:49:27.932Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:49:27.946Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:49:31.892Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:49:31.896Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:49:44.167Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:49:44.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:50:02.881Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:50:02.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:50:32.213Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:50:32.238Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:51:00.143Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:51:00.167Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:52:57.636Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:52:57.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:53:39.193Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:53:39.272Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:53:46.261Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:53:46.273Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:53:56.720Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:53:56.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:54:43.772Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:54:43.802Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:55:13.353Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:55:13.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:55:29.279Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:55:29.316Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:55:34.606Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:55:34.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:55:44.225Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:55:44.254Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:55:49.100Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:55:49.115Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T17:59:15.298Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T17:59:15.328Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T17:59:24.440Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:59:24.452Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: Last_Name: Path `Last_Name` is required., First_Name: Path `First_Name` is required.
+    at model.Document.invalidate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T17:59:44.875Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: Last_Name: Path `Last_Name` is required., First_Name: Path `First_Name` is required.
+    at model.Document.invalidate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T18:00:11.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:02:26.604Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:02:26.631Z"}
+error: 
+    status - 500 
+    message - undefined 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T18:02:41.625Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:06:20.995Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:06:21.021Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: fundooNotes.users index: email_1 dup key: { email: null } 
+      url - /api/v1/users/ 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2024-10-16T18:06:24.144Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at ServerResponse.writeHead (node:_http_server:352:11)
+    at ServerResponse.writeHead (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:338:8)
+    at write_ (node:_http_outgoing:945:9)
+    at ServerResponse.end (node:_http_outgoing:1056:5)
+    at ServerResponse.send (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:232:10)
+    at ServerResponse.json (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\response.js:278:15)
+    at appErrorHandler (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:326:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at Immediate.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Immediate._onImmediate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:646:15)
+    at processImmediate (node:internal/timers:485:21) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T18:06:24.150Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: Last_Name: Path `Last_Name` is required., First_Name: Path `First_Name` is required.
+    at model.Document.invalidate (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2788:32)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\document.js:2580:17
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:77:11) 
+    url - /api/v1/users/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T18:10:14.543Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:11:17.458Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:11:17.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:11:31.449Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:11:31.472Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2024-10-16T18:11:37.610Z"}
+info: Connected to the database. {"timestamp":"2024-10-16T18:11:37.632Z"}
