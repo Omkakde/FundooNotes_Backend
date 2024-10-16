@@ -1,0 +1,332 @@
+error: 
+    status - 500 
+    message - TypeError: UserService.loginUser is not a function
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:27:36)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:23:23)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:03:04.458Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.loginUser is not a function
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:27:36)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:23:23)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:03:29.554Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.findUserByEmail is not a function
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:26:36)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:22:13.090Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.findUserByEmail is not a function
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:26:36)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:22:14.966Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.findUserByEmail is not a function
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:26:36)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:22:21.270Z"}
+error: 
+    status - 500 
+    message - TypeError: UserService.findUserByEmail is not a function
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:26:36)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:22:7
+    at new Promise (<anonymous>)
+    at apply (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:14:12)
+    at loginUser (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\controllers\/user.controller.js:22:23)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\route.js:119:3)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:284:15
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at Function.handle (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:175:3)
+    at router (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at logger (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:328:13)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:286:9
+    at Function.process_params (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:346:12)
+    at next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\express\lib\router\index.js:280:10)
+    at C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\body-parser\lib\read.js:137:5
+    at AsyncResource.runInAsyncScope (node:async_hooks:206:9)
+    at invokeCallback (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:238:16)
+    at done (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:227:7)
+    at IncomingMessage.onEnd (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\raw-body\index.js:287:7)
+    at IncomingMessage.emit (node:events:519:28)
+    at IncomingMessage.emit (node:domain:488:12)
+    at endReadableNT (node:internal/streams/readable:1696:12)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:23:15.476Z"}
+error: 
+    status - 500 
+    message - ReferenceError: bcrypt is not defined
+    at _callee2$ (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\src\services\/user.service.js:20:39)
+    at tryCatch (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:45:16)
+    at Generator.<anonymous> (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:133:17)
+    at Generator.next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\regeneratorRuntime.js:74:21)
+    at asyncGeneratorStep (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:17)
+    at _next (C:\Users\OM KAKDE\Desktop\ExpressJS\fundooNotes_Application\node_modules\@babel\runtime\helpers\asyncToGenerator.js:17:9)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5) 
+    url - /api/v1/users/login/ 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2024-10-16T10:29:00.885Z"}
